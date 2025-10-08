@@ -56,3 +56,32 @@ body {
 .hero-image {
     border-radius: 10px;
 }
+
+.portfolio {
+    text-align: center;
+    padding: 40px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.portfolio h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+    padding: 20px;
+}
